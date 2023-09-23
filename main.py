@@ -125,6 +125,7 @@ def formSMT(x1, x2, free1, free2, coefficient):
     os.system('z3 -smt2 lab1.smt2 > output.txt')
 
 def main():
+    print("Пример ввода: f(g(x)) -> g(x). Пустая строка - это завершение.")
     left = []
     right = []
     while True:
